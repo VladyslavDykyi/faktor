@@ -35,81 +35,64 @@ $(document).ready(function () {
 			}
 		]
 	});
+	$('.slider').slick({
+		slidesToShow: 5,
+		slidesToScroll: 1,
+		infinite: true,
+		dots: true,
+		arrows: true,
+		prevArrow: '<div class="prevArrow"></div>',
+		nextArrow: '<div class="nextArrow"></div>',
+		responsive: [
+			{
+				breakpoint: 1024,
+				settings: {
+					slidesToShow: 3,
+					slidesToScroll: 1
+				}
+			},
+			{
+				breakpoint: 768,
+				settings: {
+					slidesToShow: 2,
+					slidesToScroll: 1
+				}
+			},
+			{
+				breakpoint: 580,
+				settings: {
+					slidesToShow: 2,
+					slidesToScroll: 1,
+					infinite: true,
+					centerMode: true,
+					centerPaging: '0px',
+					arrows: false,
+				}
+			},
+			{
+				breakpoint: 480,
+				settings: {
+					slidesToShow: 1,
+					slidesToScroll: 1,
+					infinite: true,
+					centerMode: true,
+					centerPaging: '0px',
+					arrows: false,
+				}
+			},
+		]
+	});
+	$('.content-new-buildings-slider').slick({
+		slidesToShow: 1,
+		slidesToScroll: 1,
+		infinite: true,
+		dots: true,
+		arrows: true,
+		prevArrow: '<div class="prevArrow"></div>',
+		nextArrow: '<div class="nextArrow"></div>',
+	});
 });
-// if (window.innerWidth <= 768) {
-// 	$(document).ready(function () {
-// 		$('.slider1').slick({
-// 			centerMode: true,
-// 			centerPaging: '50px',
-// 			slidesToShow: 3,
-// 			slidesToScroll: 1,
-// 			infinite: true,
-// 			dots: true,
-// 			dotsClass: "my-dots-bot",
-// 			arrows: false,
-// 			responsive: [
-// 				{
-// 					breakpoint: 580,
-// 					settings: {
-// 						slidesToShow: 2,
-// 						slidesToScroll: 2
-// 					}
-// 				},
-// 				{
-// 					breakpoint: 480,
-// 					settings: {
-// 						slidesToShow: 1,
-// 						slidesToScroll: 1
-// 					}
-// 				}
-// 			]
-// 		});
-// 		$('.slider2').slick({
-// 			centerMode: true,
-// 			centerPaging: '50px',
-// 			slidesToShow: 2,
-// 			slidesToScroll: 1,
-// 			infinite: true,
-// 			dots: true,
-// 			dotsClass: "my-dots-bot",
-// 			arrows: false,
-// 			responsive: [
-// 				{
-// 					breakpoint: 420,
-// 					settings: {
-// 						slidesToShow: 1,
-// 						slidesToScroll: 1
-// 					}
-// 				}
-// 			]
-// 		});
-// 		$('.slider3').slick({
-// 			centerMode: true,
-// 			centerPaging: '50px',
-// 			slidesToShow: 4,
-// 			slidesToScroll: 1,
-// 			infinite: true,
-// 			dots: false,
-// 			arrows: false,
-// 			responsive: [
-// 				{
-// 					breakpoint: 580,
-// 					settings: {
-// 						slidesToShow: 2,
-// 						slidesToScroll: 1
-// 					}
-// 				},
-// 				{
-// 					breakpoint: 420,
-// 					settings: {
-// 						slidesToShow: 1,
-// 						slidesToScroll: 1
-// 					}
-// 				}
-// 			]
-// 		});
-// 	});
-// }
+
 window.addEventListener("DOMContentLoaded", function () {
 	[].forEach.call(document.querySelectorAll('.tel'), function (input) {
 		function mask(event) {

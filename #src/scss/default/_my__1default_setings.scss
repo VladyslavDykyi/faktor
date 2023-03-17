@@ -39,6 +39,10 @@ input[type='number']::-webkit-inner-spin-button {
 	-webkit-appearance: none;
 	margin: 0; /* <-- Apparently some margin are still there even though it's hidden */
 }
+sup {
+	font-size: 10px;
+	vertical-align: super;
+}
 /*---контейнер сайта ---*/
 .container {
 	margin: 0 auto;

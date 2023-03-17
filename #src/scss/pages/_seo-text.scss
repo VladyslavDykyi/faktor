@@ -1,0 +1,87 @@
+@import "../default/_my__font";
+@import "../default/_my__color";
+@import "../default/mixins";
+.seo-bg {
+	background-color: #f3f5f7;
+}
+.seo-text {
+	&-block {
+		position: relative;
+		max-height: 207px;
+		overflow: hidden;
+		&.open {
+			max-height: 100%;
+			&:last-child div {
+				display: none;
+			}
+		}
+		&:last-child div {
+			width: 100%;
+			height: 25%;
+			display: block;
+			position: absolute;
+			bottom: 0;
+			left: 0;
+			background: linear-gradient(0deg, #f3f5f7 0%, rgba(0,0,0,0) 100%);
+			cursor: pointer;
+		}
+		& h1,
+		& h2,
+		& h3,
+		& h4 {
+			@include use-font($S-b, 600);
+			margin-left: 5px;
+			color: #333333;
+		}
+		& h1 {
+			@include use-size(24px, 32px);
+			margin: 30px 0;
+		}
+		& h2 {
+			@include use-size(22px, 30px);
+			margin: 26px 0;
+		}
+		& h3 {
+			@include use-size(20px, 28px);
+			margin: 22px 0;
+		}
+		& h4 {
+			@include use-size(18px, 22px);
+			margin: 18px 0;
+		}
+		& p {
+			@include use-font($S-r, 400);
+			@include use-size(20px, 26px);
+			text-align: justify;
+			color: #333333;
+			margin: 16px 0;
+		}
+		& strong {
+			@include use-font($S-b, 700);
+		}
+		& em {
+			font-style: italic;
+		}
+		& ul {
+			margin: 16px 0;
+			list-style: disc;
+			padding-left: 40px;
+			& li {
+				@include use-font($S-r, 400);
+				@include use-size(20px, 26px);
+				color: #333333;
+
+				margin-bottom: 8px;
+				&:last-child {
+					margin-bottom: 0;
+				}
+			}
+		}
+		& a {
+			@include use-font($S-r, 400);
+			@include use-size(20px, 26px);
+			color: #459AE9;
+			text-decoration: underline;
+		}
+	}
+}

@@ -358,7 +358,7 @@
 
 .filter-form-item .wrapper-input-group input {
   width: 100%;
-  max-width: 90px;
+  max-width: 100%;
   border: none;
   padding: 8px 10px;
   color: #333333;

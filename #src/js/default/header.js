@@ -156,3 +156,5 @@ function openDropMenu2() {
 // 	});
 // // мобілка burger кінець
 // }
+$('form').find('input').attr('autocomplete', 'off');
+$('form').find('select').attr('autocomplete', 'off');

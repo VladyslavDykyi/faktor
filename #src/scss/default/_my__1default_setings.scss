@@ -43,6 +43,9 @@ sup {
 	font-size: 10px;
 	vertical-align: super;
 }
+body {
+	background: #F3F5F7;
+}
 /*---контейнер сайта ---*/
 .container {
 	margin: 0 auto;
@@ -50,6 +53,7 @@ sup {
 	width: 100%;
 	max-width: 1270px;
 }
+
 .d-n {
 	display: none;
 }

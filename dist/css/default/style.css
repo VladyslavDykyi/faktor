@@ -221,6 +221,10 @@ sup {
   vertical-align: super;
 }
 
+body {
+  background: #F3F5F7;
+}
+
 /*---контейнер сайта ---*/
 
 .container {

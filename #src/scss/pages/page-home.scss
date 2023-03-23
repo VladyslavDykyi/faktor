@@ -2,6 +2,7 @@
 @import "../default/_my__color";
 @import "../default/mixins";
 @import "_seo-text";
+@import "../default/_my__checkbox";
 
 .bg-site {
 	padding-top: 99px;
@@ -232,7 +233,9 @@
 			}
 			&.active {
 				display: flex;
+				align-items: flex-start;
 			}
+
 			& .wrapper-input-group {
 				& label {
 					display: block;
@@ -1017,5 +1020,14 @@
 			border-bottom: 1px solid #459AE9;
 			cursor: pointer;
 		}
+	}
+}
+.check-box {
+	margin-top: 15px;
+	flex: 0 1 calc(50% - 5px);
+	&-group {
+		display: flex;
+		align-items: center;
+		justify-content: space-between;
 	}
 }

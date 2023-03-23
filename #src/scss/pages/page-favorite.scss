@@ -1,0 +1,144 @@
+@import "../default/_my__font";
+@import "../default/_my__color";
+@import "../default/mixins";
+.bg-site {
+	padding-top: 99px;
+	@media screen and (max-width: 1024px) {
+		padding-top: 139px;
+	}
+	@media screen and (max-width: 768px) {
+		padding-top: 78px;
+	}
+}
+.favorite {
+	margin: 10px 0;
+	background: #FFFFFF;
+	box-shadow: 2px 2px 7px rgba(0, 0, 0, 0.25);
+	border-radius: 10px;
+	padding: 25px 26px;
+	&-title {
+		margin-bottom: 30px;
+		color: #333333;
+	}
+	&-content {
+		display: flex;
+		flex-wrap: wrap;
+		grid-gap: 30px;
+	}
+}
+.favorite-content {
+
+}
+.content-carts {
+	&-item {
+		flex: 0 1 calc(25% - 22.5px);
+		max-width: 274px;
+		width: 100%;
+		display: block;
+		border-radius: 5px;
+
+		&:hover {
+			box-shadow: 3px 3px 8px rgba(0, 0, 0, 0.2);
+		}
+	}
+
+	&-img {
+		& img {
+			border-radius: 5px;
+			object-fit: cover;
+			height: 205px;
+		}
+	}
+
+	&-info {
+		padding: 15px 10px 7px;
+		position: relative;
+		@media screen and (max-width: 580px) {
+			padding: 10px 5px 7px;
+		}
+		&-list {
+			margin-bottom: 16px;
+			display: flex;
+			align-items: center;
+			grid-gap: 10px;
+			@media screen and (max-width: 580px) {
+				grid-gap: 5px;
+			}
+		}
+
+		&-item {
+			display: flex;
+			align-items: center;
+
+			& span {
+				color: #333333;
+				@media screen and (max-width: 425px) {
+					&.t-1 {
+						font-size: 12px;
+					}
+				}
+			}
+		}
+	}
+
+	&-price {
+		margin-bottom: 10px;
+		color: #333333;
+	}
+
+	&-title {
+		margin-bottom: 11px;
+		color: #333333;
+		height: 52px;
+	}
+
+	&-address {
+		margin-bottom: 12px;
+		color: #333333;
+		-webkit-line-clamp: 2;
+		display: -webkit-box;
+		-webkit-box-orient: vertical;
+		overflow: hidden;
+		@media screen and (max-width: 425px) {
+			&.t-1 {
+				font-size: 14px;
+			}
+		}
+	}
+	&-text {
+		margin-bottom: 17px;
+		color: #333333;
+		-webkit-line-clamp: 4;
+		display: -webkit-box;
+		-webkit-box-orient: vertical;
+		overflow: hidden;
+		@media screen and (max-width: 425px) {
+			&.t-1 {
+				font-size: 14px;
+			}
+		}
+	}
+
+	&-code {
+
+		color: #459AE9;
+		@media screen and (max-width: 425px) {
+			&.t-1 {
+				font-size: 14px;
+			}
+		}
+	}
+
+	&-like {
+		position: absolute;
+		bottom: 7px;
+		right: 10px;
+		z-index: 10;
+		cursor: pointer;
+		&.active {
+			& path {
+				fill: #459AE9;
+			}
+		}
+	}
+}

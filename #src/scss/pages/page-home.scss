@@ -2,6 +2,7 @@
 @import "../default/_my__color";
 @import "../default/mixins";
 @import "_seo-text";
+@import "_advise-bg";
 @import "../default/_my__checkbox";
 
 .bg-site {
@@ -898,59 +899,7 @@
 	transform: rotateY(180deg);
 	box-shadow: 0 0 15px rgba(0, 0, 0, 0.3);
 }
-.advice {
 
-	&-bg {
-		background-image: url("../../img/bg-l.png"), url("../../img/bg-r.png");
-		background-position: center left, center right;
-		background-repeat: no-repeat;
-		background-color: #FFFFFF;
-		border-bottom: 1px solid #AAAAAA;
-		border-top: 1px solid #AAAAAA;
-		padding: 27px 0;
-	}
-	&-title {
-		text-align: center;
-		color: #333333;
-		margin-bottom: 12px;
-		@media screen and (max-width: 580px) {
-			&.t-4 {
-				font-size: 20px;
-			}
-		}
-	}
-	&-text {
-		color: #333333;
-		max-width: 540px;
-		margin: 0 auto 24px;
-		text-align: center;
-		@media screen and (max-width: 580px) {
-			&.t-1 {
-				font-size: 14px;
-				line-height: 18px;
-			}
-		}
-	}
-	&-link {
-		display: flex;
-		align-items: center;
-		justify-content: center;
-		grid-gap: 20px;
-		@media screen and (max-width: 480px) {
-			flex-direction: column;
-		}
-		& a {
-			max-width: 200px;
-			@media screen and (max-width: 480px) {
-				max-width: 100%;
-			}
-			&:last-child {
-				text-decoration-line: underline;
-				color: #333333;
-			}
-		}
-	}
-}
 .slider {
 	max-width: 1080px;
 	margin: 0 auto;

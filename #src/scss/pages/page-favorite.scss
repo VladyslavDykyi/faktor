@@ -16,6 +16,9 @@
 	box-shadow: 2px 2px 7px rgba(0, 0, 0, 0.25);
 	border-radius: 10px;
 	padding: 25px 26px;
+	@media screen and (max-width: 768px) {
+		padding: 15px 16px;
+	}
 	&-title {
 		margin-bottom: 30px;
 		color: #333333;
@@ -24,10 +27,10 @@
 		display: flex;
 		flex-wrap: wrap;
 		grid-gap: 30px;
+		@media screen and (max-width: 768px) {
+			grid-gap: 15px;
+		}
 	}
-}
-.favorite-content {
-
 }
 .content-carts {
 	&-item {
@@ -39,6 +42,18 @@
 
 		&:hover {
 			box-shadow: 3px 3px 8px rgba(0, 0, 0, 0.2);
+		}
+		@media screen and (max-width: 1024px) {
+			flex: 0 1 calc(33.33333% - 20px);
+			max-width: 100%;
+		}
+		@media screen and (max-width: 768px) {
+			flex: 0 1 calc(50% - 7.5px);
+			max-width: 100%;
+		}
+		@media screen and (max-width: 465px) {
+			flex: 0 1 calc(100%);
+			max-width: 100%;
 		}
 	}
 

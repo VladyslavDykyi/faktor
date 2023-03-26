@@ -18,17 +18,18 @@
 		}
 		&.disable {
 			& .arrow-p:before {
-				border-color: $blue;
+				border-color: #AAAAAA;
 			}
 
 			& .pagination-link {
+				border-color: #AAAAAA;
 				&:hover {
-					background: $white;
-					color: $blue;
+					background: #fff;
+					color: #AAAAAA;
 					cursor: auto;
 
 					& .arrow-p:before {
-						border-color: $blue;
+						border-color: #aaa;
 					}
 				}
 			}
@@ -36,23 +37,23 @@
 
 		&.active {
 			& .pagination-link {
-				background: $white;
-				color: $blue;
-
+				color: #FFFFFF;
+				background: #459AE9;
+				border-color: #459AE9;
 				& .arrow-p:before {
-					border-color: $blue;
+					border-color: #459AE9;
 				}
 			}
 		}
 		&.itd {
 			& .pagination-link {
 				&:hover {
-					background: $white;
-					color: $blue;
+					background:#fff;
+					color: #aaa;
 					cursor: auto;
 
 					& .arrow-p:before {
-						border-color: $blue;
+						border-color: #fff;
 					}
 				}
 			}
@@ -65,22 +66,24 @@
 		display: flex;
 		align-items: center;
 		justify-content: center;
-		width: 24px;
-		height: 24px;
-		background: $white;
-		border-radius: 3px;
-		font-family: $I-m;
+		width: 35px;
+		height: 35px;
+		font-family: $S-r;
 		font-weight: 500;
 		font-size: 16px;
 		line-height: 19px;
-		color: $blue;
+		color: #AAAAAA;
 		cursor: pointer;
-
+		background: #FFFFFF;
+		border: 1px solid #AAAAAA;
+		border-radius: 5px;
 		&:hover {
-			color: $heavy_blue;
-
+			color: #FFFFFF;
+			background: #459AE9;
+			border-radius: 5px;
+			border: 1px solid #459AE9;
 			& .arrow-p:before {
-				border-color: $heavy_blue;
+				border-color: #fff;
 			}
 		}
 	}
@@ -91,8 +94,8 @@
 	width: 9px;
 	height: 9px;
 	display: block;
-	border-bottom: 2px solid $blue;
-	border-left: 2px solid $blue;
+	border-bottom: 2px solid #459AE9;
+	border-left: 2px solid #459AE9;
 }
 
 .next:before {

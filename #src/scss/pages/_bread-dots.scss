@@ -1,0 +1,26 @@
+.bread {
+	padding-left: 13px;
+	&-list {
+		display: flex;
+		align-items: center;
+		flex-wrap: wrap;
+	}
+	&-item {
+		margin-left: 10px;
+		&-link {
+			color: #459AE9;
+			&:hover {
+				color: #333333;
+			}
+		}
+		&:last-child {
+			& span {
+				display: none;
+			}
+		}
+		&.active .bread-item-link{
+			color: #333333;
+			pointer-events: none;
+		}
+	}
+}

@@ -1,0 +1,16 @@
+@import "../default/_my__font";
+@import "../default/_my__color";
+@import "../default/mixins";
+@import "_seo-text";
+@import "_advise-bg";
+@import "_bread-dots";
+
+.bg-site {
+	padding-top: 99px;
+	@media screen and (max-width: 1024px) {
+		padding-top: 139px;
+	}
+	@media screen and (max-width: 768px) {
+		padding-top: 78px;
+	}
+}

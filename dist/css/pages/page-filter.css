@@ -656,17 +656,18 @@
   padding: 7px 10px 8px;
   background: #FFFFFF;
   display: block;
+  border-right: 1px solid #add7fc;
 }
 
 .radio-wrapper label:first-of-type {
   -webkit-border-radius: 5px 0 0 5px;
           border-radius: 5px 0 0 5px;
-  border-right: 1px solid #add7fc;
 }
 
 .radio-wrapper label:last-of-type {
   -webkit-border-radius: 0 5px 5px 0;
           border-radius: 0 5px 5px 0;
+  border-right: none;
 }
 
 @media screen and (max-width: 1024px) {

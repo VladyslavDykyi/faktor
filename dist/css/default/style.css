@@ -1489,7 +1489,7 @@ body {
     -webkit-order: 3;
         -ms-flex-order: 3;
             order: 3;
-    grid-gap: 13px;
+    grid-gap: 10px;
   }
 
   .header-drop {

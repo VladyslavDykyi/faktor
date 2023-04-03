@@ -361,17 +361,18 @@
 		}
 	}
 	& label {
-		//flex: 0 1 calc(50% - 1px);
 		width: 100%;
 		padding: 7px 10px 8px;
 		background: #FFFFFF;
 		display: block;
+		border-right: 1px solid #add7fc;
 		&:first-of-type {
 			border-radius: 5px 0 0 5px;
-			border-right: 1px solid #add7fc;
+
 		}
 		&:last-of-type {
 			border-radius: 0 5px 5px 0 ;
+			border-right: none;
 		}
 	}
 }

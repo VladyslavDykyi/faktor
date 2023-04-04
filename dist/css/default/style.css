@@ -1519,6 +1519,10 @@ body {
 }
 
 @media screen and (max-width: 768px) {
+  .container {
+    padding: 0 7px;
+  }
+
   .footer {
     grid-template-columns: 100%;
     grid-template-rows: auto auto auto auto;

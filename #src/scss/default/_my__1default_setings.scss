@@ -52,6 +52,9 @@ body {
 	padding: 0 15px;
 	width: 100%;
 	max-width: 1270px;
+	@media screen and (max-width: 768px) {
+		padding: 0 7px;
+	}
 }
 
 .d-n {

@@ -7,7 +7,7 @@
 	}
 	&-bg {
 		background: $white-2;
-		padding: 29px 0 28px;
+		padding: 17px 0 19px;
 		width: 100%;
 		position: fixed;
 		top: 0;
@@ -27,6 +27,13 @@
 	&-burger {
 		@media screen and (max-width: 1024px) {
 		order: 2;
+		}
+		&:hover .burger{
+			background: #978B50;
+			&:before,
+			&:after {
+				background: #978B50;
+			}
 		}
 		& button {
 			width: 42px;
@@ -51,10 +58,10 @@
 		}
 		& .burger {
 			position: relative;
-			display: inline-block;
+			display: block;
 			width: 40px;
 			height: 3px;
-			background: $red;
+			background: #0E1557;
 			border-radius: 100px;
 
 			&:before {
@@ -68,7 +75,7 @@
 				content: '';
 				position: absolute;
 				display: block;
-				background: $red;
+				background: #0E1557;
 				width: inherit;
 				height: inherit;
 				border-radius: inherit;
@@ -91,6 +98,9 @@
 		}
 	}
 	&-logo {
+		max-width: 192px;
+		width: 100%;
+		max-height: 63px;
 		@media screen and (max-width: 1024px) {
 			order: 1;
 			flex: 0 1 100%;
@@ -98,7 +108,7 @@
 			justify-content: center;
 		}
 		& img {
-			max-width: 210px;
+			max-width: 192px;
 			@media screen and (max-width: 768px) {
 				max-width: 71px;
 			}
@@ -151,12 +161,15 @@
 		border-radius: 0 0 10px 0;
 		padding: 7px 50px 37px;
 		@media screen and (max-width: 1024px) {
-			top: 110px;
+			top: 63px;
 			left: 0;
 			padding: 7px 20px 37px 20px;
 		}
 		@media screen and (max-width: 768px) {
-			top: 68px;
+			top: 42px;
+		}
+		@media screen and (max-width: 494px) {
+			top: 77px;
 		}
 		@media screen and (max-width: 425px) {
 			width: 100%;

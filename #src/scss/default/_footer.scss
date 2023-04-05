@@ -80,6 +80,10 @@
 					margin: 40px 0 15px;
 				}
 			}
+			& picture {
+				display: block;
+				max-width: 158px;
+			}
 			& img {
 				@media screen and (max-width: 768px) {
 					max-width: 95px;
@@ -167,7 +171,7 @@
 					}
 				}
 				& a {
-					color: #459AE9;
+					color: #978B50;
 				}
 			}
 		}

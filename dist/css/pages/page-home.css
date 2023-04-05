@@ -33,7 +33,7 @@
 .seo-text-block h2,
 .seo-text-block h3,
 .seo-text-block h4 {
-  font-family: "Inter-Bold", sans-serif;
+  font-family: "SeroPro-Bold", sans-serif;
   font-weight: 600;
   margin-left: 5px;
   color: #333333;
@@ -64,7 +64,7 @@
 }
 
 .seo-text-block p {
-  font-family: "Inter-Regular", sans-serif;
+  font-family: "SeroPro", sans-serif;
   font-weight: 400;
   font-size: 20px;
   line-height: 26px;
@@ -74,7 +74,7 @@
 }
 
 .seo-text-block strong {
-  font-family: "Inter-Bold", sans-serif;
+  font-family: "SeroPro-Bold", sans-serif;
   font-weight: 700;
 }
 
@@ -89,7 +89,7 @@
 }
 
 .seo-text-block ul li {
-  font-family: "Inter-Regular", sans-serif;
+  font-family: "SeroPro", sans-serif;
   font-weight: 400;
   font-size: 20px;
   line-height: 26px;
@@ -102,7 +102,7 @@
 }
 
 .seo-text-block a {
-  font-family: "Inter-Regular", sans-serif;
+  font-family: "SeroPro", sans-serif;
   font-weight: 400;
   font-size: 20px;
   line-height: 26px;
@@ -166,7 +166,7 @@
 .check-box label {
   position: relative;
   padding-left: 35px;
-  font-family: "Inter-Regular", sans-serif;
+  font-family: "SeroPro", sans-serif;
   font-weight: 400;
   font-size: 16px;
   line-height: 20px;
@@ -1010,7 +1010,7 @@
   top: 82px;
   right: 0;
   z-index: 0;
-  font-family: "Inter-Regular", sans-serif;
+  font-family: "SeroPro", sans-serif;
   font-weight: 400;
   font-size: 200px;
   line-height: 256px;

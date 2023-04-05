@@ -254,7 +254,7 @@ body {
   -webkit-border-radius: 5px;
           border-radius: 5px;
   border: none;
-  font-family: "Inter-Regular", sans-serif;
+  font-family: "SeroPro", sans-serif;
   font-weight: 400;
   display: -webkit-box;
   display: -webkit-flex;
@@ -315,14 +315,14 @@ body {
           border-radius: 5px;
   color: #333333;
   padding: 7px 10px 7px;
-  font-family: "Inter-Regular", sans-serif;
+  font-family: "SeroPro", sans-serif;
   font-weight: 400;
   font-size: 18px;
   line-height: 24px;
 }
 
 .i input::-webkit-input-placeholder {
-  font-family: "Inter-Regular", sans-serif;
+  font-family: "SeroPro", sans-serif;
   font-weight: 400;
   font-size: 18px;
   line-height: 24px;
@@ -330,7 +330,7 @@ body {
 }
 
 .i input::-moz-placeholder {
-  font-family: "Inter-Regular", sans-serif;
+  font-family: "SeroPro", sans-serif;
   font-weight: 400;
   font-size: 18px;
   line-height: 24px;
@@ -338,7 +338,7 @@ body {
 }
 
 .i input:-ms-input-placeholder {
-  font-family: "Inter-Regular", sans-serif;
+  font-family: "SeroPro", sans-serif;
   font-weight: 400;
   font-size: 18px;
   line-height: 24px;
@@ -346,7 +346,7 @@ body {
 }
 
 .i input::-ms-input-placeholder {
-  font-family: "Inter-Regular", sans-serif;
+  font-family: "SeroPro", sans-serif;
   font-weight: 400;
   font-size: 18px;
   line-height: 24px;
@@ -354,7 +354,7 @@ body {
 }
 
 .i input::placeholder {
-  font-family: "Inter-Regular", sans-serif;
+  font-family: "SeroPro", sans-serif;
   font-weight: 400;
   font-size: 18px;
   line-height: 24px;
@@ -441,7 +441,7 @@ body {
           justify-content: center;
   width: 35px;
   height: 35px;
-  font-family: "Inter-Regular", sans-serif;
+  font-family: "SeroPro", sans-serif;
   font-weight: 500;
   font-size: 16px;
   line-height: 19px;
@@ -516,7 +516,7 @@ body {
 }
 
 .select2-container--my .select2-selection--single .select2-selection__rendered {
-  font-family: "Inter-Regular", sans-serif;
+  font-family: "SeroPro", sans-serif;
   font-weight: 400;
   font-size: 14px;
   line-height: 18px;
@@ -576,7 +576,7 @@ body {
 }
 
 .select2-container--my .select2-results__option {
-  font-family: "Inter-Regular", sans-serif;
+  font-family: "SeroPro", sans-serif;
   font-weight: 400;
   font-size: 14px;
   line-height: 18px;
@@ -650,7 +650,7 @@ body {
 }
 
 .select2-container--search .select2-selection--single .select2-selection__rendered {
-  font-family: "Inter-Regular", sans-serif;
+  font-family: "SeroPro", sans-serif;
   font-weight: 400;
   font-size: 16px;
   line-height: 19px;
@@ -722,7 +722,7 @@ body {
 }
 
 .select2-container--search .select2-results__option {
-  font-family: "Inter-Regular", sans-serif;
+  font-family: "SeroPro", sans-serif;
   font-weight: 400;
   font-size: 14px;
   line-height: 18px;
@@ -753,12 +753,12 @@ body {
 }
 
 .t-bold {
-  font-family: "Inter-Bold", sans-serif;
+  font-family: "SeroPro-Bold", sans-serif;
   font-weight: 700;
 }
 
 .t-regular {
-  font-family: "Inter-Regular", sans-serif;
+  font-family: "SeroPro", sans-serif;
   font-weight: 400;
 }
 

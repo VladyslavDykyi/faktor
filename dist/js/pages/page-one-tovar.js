@@ -35,6 +35,115 @@ $(document).ready(function () {
 			}
 		]
 	});
+	$('.product-for').slick({
+		autoplay: false,
+		slidesToShow: 1,
+		slidesToScroll: 1,
+		arrows: false,
+		dots: false,
+		fade: false,
+		infinite: false,
+		asNavFor: '.product-nav',
+	});
+	const elem_nav = $('.product-nav-item').length
+	if (elem_nav === 2) {
+		$('.product-nav').slick({
+			slidesToShow: 2,
+			slidesToScroll: 1,
+			asNavFor: '.product-for',
+			focusOnSelect: true,
+			vertical: true,
+			infinite: false,
+			arrows: true,
+			prevArrow: '<div class="prevArrow"></div>',
+			nextArrow: '<div class="nextArrow"></div>',
+			responsive: [
+				{
+					breakpoint: 530,
+					settings: {
+						vertical: false,
+						arrows: false,
+					}
+				},
+			]
+		});
+	} else if(elem_nav === 3) {
+		$('.product-nav').slick({
+			slidesToShow: 3,
+			slidesToScroll: 1,
+			asNavFor: '.product-for',
+			focusOnSelect: true,
+			vertical: true,
+			infinite: false,
+			arrows: true,
+			prevArrow: '<div class="prevArrow"></div>',
+			nextArrow: '<div class="nextArrow"></div>',
+			responsive: [
+				{
+					breakpoint: 530,
+					settings: {
+						slidesToShow: 3,
+						slidesToScroll: 1,
+						vertical: false,
+						arrows: false,
+					}
+				},
+			]
+		});
+	} else if(elem_nav === 4) {
+		$('.product-nav').slick({
+			slidesToShow: 4,
+			slidesToScroll: 1,
+			asNavFor: '.product-for',
+			focusOnSelect: true,
+			vertical: true,
+			infinite: false,
+			arrows: true,
+			prevArrow: '<div class="prevArrow"></div>',
+			nextArrow: '<div class="nextArrow"></div>',
+			responsive: [
+				{
+					breakpoint: 530,
+					settings: {
+						slidesToShow: 4,
+						slidesToScroll: 1,
+						vertical: false,
+						arrows: false,
+					}
+				},
+			]
+		});
+	} else {
+		$('.product-nav').slick({
+			slidesToShow: 5,
+			slidesToScroll: 1,
+			asNavFor: '.product-for',
+			focusOnSelect: true,
+			vertical: true,
+			infinite: false,
+			arrows: true,
+			prevArrow: '<div class="prevArrow"></div>',
+			nextArrow: '<div class="nextArrow"></div>',
+			responsive: [
+				{
+					breakpoint: 768,
+					settings: {
+						slidesToShow: 4,
+						slidesToScroll: 1
+					}
+				},
+				{
+					breakpoint: 530,
+					settings: {
+						slidesToShow: 4,
+						slidesToScroll: 1,
+						vertical: false,
+						arrows: false,
+					}
+				},
+			]
+		});
+	}
 });
 
 window.addEventListener("DOMContentLoaded", function () {
@@ -70,3 +179,4 @@ window.addEventListener("DOMContentLoaded", function () {
 		input.addEventListener("keydown", mask, false)
 	});
 });
+Fancybox.bind('[data-fancybox="gallery"]', {});

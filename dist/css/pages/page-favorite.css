@@ -1,5 +1,5 @@
 .bg-site {
-  padding-top: 99px;
+  padding-top: 100px;
 }
 
 .favorite {
@@ -133,7 +133,7 @@
 
 @media screen and (max-width: 1024px) {
   .bg-site {
-    padding-top: 139px;
+    padding-top: 140px;
   }
 
   .content-carts-item {
@@ -147,7 +147,7 @@
 
 @media screen and (max-width: 768px) {
   .bg-site {
-    padding-top: 78px;
+    padding-top: 105px;
   }
 
   .favorite {

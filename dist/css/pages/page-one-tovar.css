@@ -201,7 +201,7 @@
 }
 
 .bg-site {
-  padding-top: 99px;
+  padding-top: 100px;
 }
 
 .content {
@@ -396,6 +396,7 @@
 
 .content-product-item .item-title h2 {
   color: #0F2335;
+  padding-right: 30px;
 }
 
 .content-product-item .item-address {
@@ -722,8 +723,13 @@
 }
 
 @media screen and (max-width: 1024px) {
+  .seo-text-block p {
+    font-size: 18px;
+    line-height: 24px;
+  }
+
   .bg-site {
-    padding-top: 139px;
+    padding-top: 140px;
   }
 
   .content {
@@ -779,7 +785,7 @@
 
 @media screen and (max-width: 768px) {
   .bg-site {
-    padding-top: 78px;
+    padding-top: 105px;
   }
 
   .content {

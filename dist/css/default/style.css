@@ -606,13 +606,13 @@ body {
   border-color: #333333 #333333 transparent transparent;
 }
 
+.select2-container--search .select2-selection--multiple,
 .select2-container--search .select2-selection--single {
   border: none;
-  border-bottom: 1px solid transparent;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
   padding: 6px 11px 7px 10px;
-  height: 36px;
+  min-height: 36px;
   -webkit-transition: all .2s linear;
   -o-transition: all .2s linear;
   transition: all .2s linear;
@@ -628,6 +628,58 @@ body {
   -webkit-border-radius: 7px;
           border-radius: 7px;
   color: #646464;
+}
+
+.select2-container--search .select2-selection--multiple .select2-selection__rendered {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
+  grid-gap: 8px;
+  -webkit-flex-wrap: wrap;
+      -ms-flex-wrap: wrap;
+          flex-wrap: wrap;
+}
+
+.select2-container--search .select2-selection--multiple .select2-selection__rendered li {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
+  grid-gap: 4px;
+  background-color: #459AE9;
+  padding: 4px 2px;
+  -webkit-border-radius: 4px;
+          border-radius: 4px;
+}
+
+.select2-container--search .select2-selection--multiple .select2-selection__rendered button {
+  border: none;
+  background: transparent;
+  cursor: pointer;
+  padding: 0;
+}
+
+.select2-container--search .select2-selection--multiple .select2-selection__rendered button span {
+  color: #FFFFFF;
+  font-size: 20px;
+  line-height: 0;
+}
+
+.select2-container--search .select2-selection--multiple .select2-selection__rendered span {
+  font-family: "SeroPro", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 16px;
+  color: #FFFFFF;
 }
 
 .select2-container--search.select2-container--disabled .select2-selection--single {
@@ -1116,6 +1168,32 @@ body {
   position: relative;
 }
 
+.header-actions-item .favorite-count {
+  height: 20px;
+  -webkit-border-radius: 10px;
+          border-radius: 10px;
+  background: #978B50;
+  color: #FFFFFF;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  padding: 2px 5px 0;
+  font-size: 16px;
+  line-height: 16px;
+  position: absolute;
+  top: -2px;
+  right: -4px;
+}
+
 .header-actions-item button,
 .header-actions-item a {
   display: -webkit-box;
@@ -1150,7 +1228,9 @@ body {
   background: #F3F5F7;
   -webkit-border-radius: 0 0 10px 0;
           border-radius: 0 0 10px 0;
-  padding: 7px 50px 37px;
+  padding: 27px 50px 37px;
+  -webkit-box-shadow: 3px 3px 4px rgba(0, 0, 0, 0.25);
+          box-shadow: 3px 3px 4px rgba(0, 0, 0, 0.25);
 }
 
 .header-drop.active {
@@ -1515,7 +1595,7 @@ body {
   .header-drop {
     top: 63px;
     left: 0;
-    padding: 7px 20px 37px 20px;
+    padding: 27px 20px 37px 20px;
   }
 
   .header-drop-nav {

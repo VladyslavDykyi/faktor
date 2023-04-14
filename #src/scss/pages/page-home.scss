@@ -6,12 +6,12 @@
 @import "../default/_my__checkbox";
 
 .bg-site {
-	padding-top: 99px;
+	padding-top: 100px;
 	@media screen and (max-width: 1024px) {
-		padding-top: 139px;
+		padding-top: 140px;
 	}
 	@media screen and (max-width: 768px) {
-		padding-top: 78px;
+		padding-top: 105px;
 	}
 }
 
@@ -97,7 +97,7 @@
 		& a {
 			color: #333333;
 			@media screen and (max-width: 768px) {
-				font-size: 12px;
+				font-size: 16px;
 				line-height: 16px;
 			}
 		}
@@ -644,6 +644,10 @@
 			margin-bottom: 11px;
 			color: #333333;
 			height: 52px;
+			-webkit-line-clamp: 3;
+			display: -webkit-box;
+			-webkit-box-orient: vertical;
+			overflow: hidden;
 		}
 
 		&-address {
@@ -676,6 +680,7 @@
 		&-code {
 
 			color: #459AE9;
+			padding-right: 30px;
 			@media screen and (max-width: 425px) {
 				&.t-1 {
 					font-size: 14px;

@@ -55,6 +55,9 @@
 			text-align: justify;
 			color: #333333;
 			margin: 16px 0;
+			@media screen and (max-width: 1024px) {
+				@include use-size(18px, 24px);
+			}
 		}
 		& strong {
 			@include use-font($S-b, 700);

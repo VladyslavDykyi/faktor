@@ -268,10 +268,6 @@
 					}
 				}
 			}
-			& .btn.white {
-				font-size: 14px;
-				line-height: 18px;
-			}
 		}
 		&-item {
 			display: flex;
@@ -657,6 +653,7 @@
 			display: -webkit-box;
 			-webkit-box-orient: vertical;
 			overflow: hidden;
+			height: 40px;
 			@media screen and (max-width: 425px) {
 				&.t-1 {
 					font-size: 14px;
@@ -666,10 +663,11 @@
 		&-text {
 			margin-bottom: 17px;
 			color: #333333;
-			-webkit-line-clamp: 4;
+			-webkit-line-clamp: 3;
 			display: -webkit-box;
 			-webkit-box-orient: vertical;
 			overflow: hidden;
+			height: 60px;
 			@media screen and (max-width: 425px) {
 				&.t-1 {
 					font-size: 14px;

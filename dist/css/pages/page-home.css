@@ -389,11 +389,6 @@
           flex: 0 1 270px;
 }
 
-.filter-form-last .btn.white {
-  font-size: 14px;
-  line-height: 18px;
-}
-
 .filter-form-item {
   display: -webkit-box;
   display: -webkit-flex;
@@ -833,15 +828,17 @@
   display: -webkit-box;
   -webkit-box-orient: vertical;
   overflow: hidden;
+  height: 40px;
 }
 
 .content-carts-text {
   margin-bottom: 17px;
   color: #333333;
-  -webkit-line-clamp: 4;
+  -webkit-line-clamp: 3;
   display: -webkit-box;
   -webkit-box-orient: vertical;
   overflow: hidden;
+  height: 60px;
 }
 
 .content-carts-code {

@@ -310,7 +310,7 @@
 		background-color: #f3faff;
 		border-radius: 16px;
 		margin-bottom: 10px;
-		transition: all .1s linear;
+		transition: all .2s linear;
 		
 		&:last-of-type {
 			margin-bottom: 0;
@@ -321,7 +321,7 @@
 		border-radius: 16px;
 		background-color: transparent;
 		border: none;
-		transition: all .1s linear;
+		transition: all .2s linear;
 		font-family: "SeroPro", sans-serif;
 		font-weight: 500;
 		font-size: 24px;
@@ -358,7 +358,7 @@
 		overflow: hidden;
 		max-height: 0;
 		opacity: 0;
-		transition: all .1s linear;
+		transition: all .2s linear;
 		
 		& p {
 			font-family: "SeroPro", sans-serif;

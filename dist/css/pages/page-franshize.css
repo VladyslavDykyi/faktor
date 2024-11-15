@@ -718,6 +718,10 @@
     margin: 0 auto;
   }
 
+  .franchise-text {
+    margin-bottom: 30px;
+  }
+
   .why-wrapper {
     -webkit-flex-wrap: wrap;
         -ms-flex-wrap: wrap;

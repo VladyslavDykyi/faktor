@@ -35,7 +35,9 @@
 			line-height: 18px;
 		}
 	}
-	
+	&:first-of-type {
+		margin-top: 60px;
+	}
 	&-title {
 		text-align: center;
 		color: #333333;
@@ -62,7 +64,7 @@
 
 .franchise {
 	max-width: 1013px;
-	margin: 60px auto 0;
+	margin: 0 auto;
 	display: flex;
 	align-items: center;
 	justify-content: space-between;

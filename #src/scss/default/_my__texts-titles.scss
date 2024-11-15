@@ -2,6 +2,9 @@
 .t-bold {
 	@include use-font($S-b, 700);
 }
+.t-medium {
+	@include use-font($S-m, 500);
+}
 .t-regular {
 	@include use-font($S-r, 400);
 }

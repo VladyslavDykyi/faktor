@@ -348,7 +348,13 @@
 				fill: #fff;
 			}
 		}
-		
+		& .svg-open {
+			min-width: 30px;
+			@media screen and (max-width: 768px) {
+				min-width: 20px;
+				max-width: 20px;
+			}
+		}
 		& .svg-close {
 			display: none;
 		}

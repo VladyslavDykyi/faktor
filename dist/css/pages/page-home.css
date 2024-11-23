@@ -538,6 +538,10 @@
   margin-top: 30px;
 }
 
+.content * {
+  font-family: SeroPro, sans-serif;
+}
+
 .content-title {
   margin-bottom: 30px;
   display: -webkit-box;
@@ -1407,7 +1411,7 @@
   }
 
   .category-list {
-    grid-gap: 10px 50px;
+    grid-gap: 10px;
   }
 
   .category-item:first-child {
@@ -1415,7 +1419,7 @@
   }
 
   .category-item a {
-    font-size: 16px;
+    font-size: 14px;
     line-height: 16px;
   }
 

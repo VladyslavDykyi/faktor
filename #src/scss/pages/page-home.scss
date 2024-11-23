@@ -24,7 +24,7 @@
 		flex-wrap: wrap;
 		grid-gap: 50px;
 		@media screen and (max-width: 768px) {
-			grid-gap: 10px 50px;
+			grid-gap: 10px;
 		}
 	}
 
@@ -39,7 +39,7 @@
 		& a {
 			color: #333333;
 			@media screen and (max-width: 768px) {
-				font-size: 16px;
+				font-size: 14px;
 				line-height: 16px;
 			}
 		}
@@ -312,7 +312,9 @@
 			line-height: 18px;
 		}
 	}
-
+	& * {
+		font-family: SeroPro, sans-serif;
+	}
 	&-title {
 		margin-bottom: 30px;
 		display: flex;

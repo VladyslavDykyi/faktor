@@ -12,6 +12,10 @@
   padding: 25px 26px;
 }
 
+.favorite * {
+  font-family: SeroPro, sans-serif;
+}
+
 .favorite-title {
   margin-bottom: 30px;
   color: #333333;

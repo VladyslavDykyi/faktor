@@ -144,11 +144,6 @@
   display: none;
 }
 
-.bread-item.active .bread-item-link {
-  color: #333333;
-  pointer-events: none;
-}
-
 .banner {
   background: -o-linear-gradient(359.45deg, #A1E3DF 49.08%, #AED8FF 75.44%);
   background: linear-gradient(90.55deg, #A1E3DF 49.08%, #AED8FF 75.44%);

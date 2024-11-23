@@ -241,11 +241,6 @@
   display: none;
 }
 
-.bread-item.active .bread-item-link {
-  color: #333333;
-  pointer-events: none;
-}
-
 .bg-site {
   padding-top: 100px;
 }

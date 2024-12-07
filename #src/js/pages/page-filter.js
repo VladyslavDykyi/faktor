@@ -43,8 +43,10 @@ function openfilter(btn_filter,filter_form) {
 		const target = e.target;
 		const its_menu = target === menu || menu.contains(target);
 		const its_btn = target === btn;
+		const is_select2 = target.closest('.select2-container'); // Перевіряємо, чи клікають по Select2
 		const menu_is_active = menu.classList.contains('active');
-		if (!its_menu && !its_btn && menu_is_active) {
+		
+		if (!its_menu && !its_btn && menu_is_active && !is_select2) {
 			toggleActive();
 		}
 	});
